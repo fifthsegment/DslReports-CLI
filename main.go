@@ -173,8 +173,9 @@ func main() {
 	}
 	registerFlags(app);
 	app.Action = func(c *cli.Context) error {
-	    println("Usage :\n Pass the first argument as `run` to run the full speed test. \n For the Download test only : pass the first argument as `download` \n For the Upload test only : pass the first argument as `upload`. ")
-	    println("")
+	    dslr.Run(R, "APIauth")
+		dslr.Run(R, "APIservers")
+		dslr.Run(R, "StartSpeedTestUpload")
 	    return nil;
 	}
 	registerCommands(app);
