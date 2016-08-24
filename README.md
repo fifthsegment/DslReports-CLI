@@ -12,7 +12,7 @@ DslReports.com's commandline speed testing utility.
 First, get the required dependencies:
 
 1. `go get github.com/codegangsta/cli`
-2. `github.com/fifthsegment/DslReports`
+2. `go get github.com/fifthsegment/DslReports`
 
 Then simply run : `go run main.go`
 
