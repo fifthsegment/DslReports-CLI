@@ -14,7 +14,7 @@ First, get the required dependencies:
 1. `go get github.com/codegangsta/cli`
 2. `github.com/fifthsegment/DslReports`
 
-Then simply run : `go run main.go run`
+Then simply run : `go run main.go`
 
 ### Additional Flags
 
