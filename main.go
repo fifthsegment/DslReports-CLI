@@ -1,7 +1,11 @@
 package main
 
 import (
+<<<<<<< HEAD
 	"github.com/fifthsegment/dslreports"
+=======
+	"github.com/fifthsegment/DslReports"
+>>>>>>> e5ce7596d76976ca2d9e2f3f0965a946fc0e9a58
 	"os"
 	"fmt"
 	"github.com/codegangsta/cli"
@@ -44,10 +48,14 @@ func initialize() {
 	dslr.Register(R, M)
 	// Register Alpha features
 	M = dslr.Dslrmethod{Name: "PerformUploadSpeedTestAlpha", Action: dslr.PerformUploadSpeedTestAlpha}
+<<<<<<< HEAD
 	dslr.Register(R, M);
 	M = dslr.Dslrmethod{Name: "PushResultstoServer", Action: dslr.PushResultstoServer };
 	dslr.Register(R, M);
 
+=======
+	dslr.Register(R, M)
+>>>>>>> e5ce7596d76976ca2d9e2f3f0965a946fc0e9a58
 }
 
 
@@ -156,6 +164,7 @@ func registerCommands(app *cli.App){
 				return nil;
 			},
 		},
+<<<<<<< HEAD
 		{
 			Name:    "testpush",
 			Aliases: []string{"u"},
@@ -176,6 +185,8 @@ func registerCommands(app *cli.App){
 				return nil;
 			},
 		},
+=======
+>>>>>>> e5ce7596d76976ca2d9e2f3f0965a946fc0e9a58
 	}
 }
 
@@ -204,4 +215,7 @@ func main() {
 	registerCommands(app);
 	app.Run(os.Args)
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e5ce7596d76976ca2d9e2f3f0965a946fc0e9a58
