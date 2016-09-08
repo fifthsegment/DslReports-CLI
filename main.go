@@ -182,7 +182,7 @@ func registerCommands(app *cli.App){
 }
 
 
-
+// main
 func main() {
 	initialize()
 	app := cli.NewApp()
