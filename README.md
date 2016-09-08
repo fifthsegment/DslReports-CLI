@@ -1,4 +1,4 @@
-[ ![Codeship Status for fifthsegment/DslReports-CLI](https://codeship.com/projects/11a794a0-5188-0134-df5b-1ab2f5cbd726/status?branch=master)](https://codeship.com/projects/171252)
+[ ![Codeship Status for fifthsegment/DslReports-CLI](https://codeship.com/projects/11a794a0-5188-0134-df5b-1ab2f5cbd726/status?branch=master)](#)
 
 # DslReports-CLI
 
