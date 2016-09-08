@@ -112,6 +112,7 @@ func registerCommands(app *cli.App){
 				dslr.Run(R, "APIservers")
 				dslr.Run(R, "StartSpeedTestDownload")
 				dslr.Run(R, "StartSpeedTestUpload")
+				dslr.Run(R, "PushResultstoServer")
 				dslr.Run(R, "Results")
 				return nil;
 			},
@@ -173,6 +174,7 @@ func registerCommands(app *cli.App){
       			dslr.Run(R, "StartSpeedTestDownload")
 				dslr.Run(R, "StartSpeedTestUpload")
 				dslr.Run(R, "PushResultstoServer")
+				dslr.Run(R, "Results")
 				return nil;
 			},
 		},
