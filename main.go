@@ -4,7 +4,7 @@ import (
 	"github.com/fifthsegment/dslreports"
 	"os"
 	"fmt"
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 	"strconv"
 	"time"
 )
