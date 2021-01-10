@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fifthsegment/dslreports"
+	"github.com/BrendanMcCallum/DslReports-CLI"
 	"os"
 	"fmt"
 	"github.com/urfave/cli"
